@@ -98,5 +98,29 @@
   <ItemGroup>
     <None Include="Resources\bathrrom.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haunted back door.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haunted house front door.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haunted staris.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ghost.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bloody marry.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basment monster.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basement.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basement staris.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

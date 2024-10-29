@@ -47,6 +47,7 @@
             this.option3Button.TabIndex = 16;
             this.option3Button.Text = ">";
             this.option3Button.UseVisualStyleBackColor = true;
+            this.option3Button.Click += new System.EventHandler(this.option3Button_Click);
             // 
             // option2Button
             // 

@@ -241,6 +241,10 @@ namespace ass
             {
                 page = 99;
             }
+            else if (page == 99)
+            {
+                page = 1;
+            }
 
             DisplayPage();
 
@@ -262,8 +266,8 @@ namespace ass
 
                     break;
                 case 2:
-                    
-                        outputBox.Text = "as you enter the front door opens on its own ";
+                    imageBox.Image = ass.Properties.Resources.haunted_house_start;
+                    outputBox.Text = "as you enter the front door opens on its own ";
                         option1.Text = "go upstairs";
                         option2.Text = "living room";
                         option3.Text = "leave";
@@ -271,14 +275,16 @@ namespace ass
                     break;
                 case 3:
                     {
+                        imageBox.Image = ass.Properties.Resources.you_died;
                         outputBox.Text = "as you are leaving you slip on the pavemnet and die ";
-                        option1.Text = "";
-                        option2.Text = "";
-                        option3.Text = "";
+                        option1.Text = "...";
+                        option2.Text = "...";
+                        option3.Text = "...";
                     }
                     break;
                 case 4:
                     {
+                        imageBox.Image = ass.Properties.Resources.haunted_living_room;
                         outputBox.Text = "as you step in the living room you get paralzyed and die standing up";
                         option1.Text = "";
                         option2.Text = "";
@@ -287,6 +293,7 @@ namespace ass
                     break;
                 case 5:
                     {
+                        imageBox.Image = ass.Properties.Resources.haunted_staris;
                         outputBox.Text = "as you go up the stairs you hear a scream coming from the bedroom";
                         option1.Text = "bathroom";
                         option2.Text = "bedroom";
@@ -294,15 +301,16 @@ namespace ass
                     }
                     break;
                 case 6:
-                    {
-                        outputBox.Text = "writien on the wall with blood it say say bloody mary 3 times in the mirro";
+                    imageBox.Image = ass.Properties.Resources.bathrrom;
+                    outputBox.Text = "writien on the wall with blood it say say bloody mary 3 times in the mirro";
                         option1.Text = "say it 3 times";
                         option2.Text = "leave the bathroom";
                         option3.Text = "";
-                    }
+                    
                     break;
                 case 7:
                     {
+                        imageBox.Image = ass.Properties.Resources.haunted_bedroom;
                         outputBox.Text = "as you go in the girl crying jumps on you and rips you apart leading to your death";
                         option1.Text = "";
                         option2.Text = "";
@@ -319,6 +327,7 @@ namespace ass
                     break;
                 case 9:
                     {
+                        imageBox.Image = ass.Properties.Resources.bloody_marry;
                         outputBox.Text = "as you try to leave she pops in front of you and snaps your neck";
                         option1.Text = "";
                         option2.Text = "";
@@ -327,6 +336,7 @@ namespace ass
                     break;
                 case 10:
                     {
+                        imageBox.Image = ass.Properties.Resources.bloody_marry;
                         outputBox.Text = "you say bloddy mary 3 times and she appres in front of the mirror you talk to her but she gets bored and kills you";
                         option1.Text = "";
                         option2.Text = "";
@@ -335,6 +345,7 @@ namespace ass
                     break;
                 case 11:
                     {
+                        imageBox.Image = ass.Properties.Resources.bloody_marry;
                         outputBox.Text = "you say bloody mary 3 times and she appres in fron of the mirror you talk to her and she likes you and helps you escape you win";
                         option1.Text = "";
                         option2.Text = "";
@@ -343,6 +354,7 @@ namespace ass
                     break;
                 case 12:
                     {
+                        imageBox.Image = ass.Properties.Resources.haunted_back_door;
                         outputBox.Text = "do you go to the kitchen or basment";
                         option1.Text = "kitehcn";
                         option2.Text = "basment";
@@ -351,6 +363,7 @@ namespace ass
                     break;
                 case 13:
                     {
+                        imageBox.Image = ass.Properties.Resources.haunted_kitchen;
                         outputBox.Text = "as you enter the kithen a rat jumpcares you do you grab a kife or not";
                         option1.Text = "grab it";
                         option2.Text = "dont grab it";
@@ -359,6 +372,7 @@ namespace ass
                     break;
                 case 14:
                     {
+                        imageBox.Image = ass.Properties.Resources.ghost;
                         outputBox.Text = "a ghost appres and trys to attack you but you kill it with the kife. do you run out the house or stay";
                         option1.Text = "run";
                         option2.Text = "stay";
@@ -367,6 +381,7 @@ namespace ass
                     break;
                 case 15:
                     {
+                        imageBox.Image = ass.Properties.Resources.ghost;
                         outputBox.Text = "a ghost appres and kills you because you didnt have a wepon";
                         option1.Text = "";
                         option2.Text = "";
@@ -439,14 +454,23 @@ namespace ass
                     break;
                 case 99:
                     {
-                        outputBox.Text = "";
-                        option1.Text = "";
-                        option2.Text = "";
-                        option3.Text = "";
+                        outputBox.Text = "Game over. Do you want to play again";
+                        option1.Text = "yes";
+                        option2.Text = "no";
+                        option3.Text = "...";
                     }
                     break;
 
             }
+        }
+
+        private void option3Button_Click(object sender, EventArgs e)
+        {
+            if (page == 2)
+            {
+                page = 3;
+            }
+            DisplayPage();
         }
     }
 }
