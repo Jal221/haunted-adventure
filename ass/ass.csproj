@@ -122,5 +122,14 @@
   <ItemGroup>
     <None Include="Resources\basement staris.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\you win.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quetion.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\you-win-sequence-1-183948.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -193,9 +193,38 @@ namespace ass.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap quetion {
+            get {
+                object obj = ResourceManager.GetObject("quetion", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream win {
+            get {
+                return ResourceManager.GetStream("win", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap you_died {
             get {
                 object obj = ResourceManager.GetObject("you_died", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap you_win {
+            get {
+                object obj = ResourceManager.GetObject("you_win", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
