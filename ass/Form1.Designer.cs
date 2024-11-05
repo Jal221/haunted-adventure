@@ -41,7 +41,7 @@
             // 
             // option3Button
             // 
-            this.option3Button.Location = new System.Drawing.Point(70, 661);
+            this.option3Button.Location = new System.Drawing.Point(70, 645);
             this.option3Button.Name = "option3Button";
             this.option3Button.Size = new System.Drawing.Size(75, 23);
             this.option3Button.TabIndex = 16;
@@ -80,7 +80,7 @@
             // option3
             // 
             this.option3.AutoSize = true;
-            this.option3.Location = new System.Drawing.Point(170, 666);
+            this.option3.Location = new System.Drawing.Point(170, 650);
             this.option3.Name = "option3";
             this.option3.Size = new System.Drawing.Size(0, 13);
             this.option3.TabIndex = 12;

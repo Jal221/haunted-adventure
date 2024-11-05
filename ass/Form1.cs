@@ -19,9 +19,9 @@ namespace ass
 
         {
             InitializeComponent();
-            outputBox.Text = "you are walking in a dark alley and discover a haunted house do you enter through the front door or back door";
-            option1.Text = "front door ";
-            option2.Text = "back door";
+            outputBox.Text = "You are walking in a dark alley and discover a haunted house do you enter through the front door or back door";
+            option1.Text = "Front door ";
+            option2.Text = "Back door";
             imageBox.Image = ass.Properties.Resources.haunted_house_start;
 
 
@@ -287,24 +287,24 @@ namespace ass
             {
                 case 1:
                     imageBox.Image = ass.Properties.Resources.haunted_house_start;
-                    outputBox.Text = "you find a haunted house";
-                    option1.Text = "front door";
-                    option2.Text = "back door";
+                    outputBox.Text = "You find a haunted house";
+                    option1.Text = "Front door";
+                    option2.Text = "Back door";
                     option3.Text = "";
 
                     break;
                 case 2:
                     imageBox.Image = ass.Properties.Resources.haunted_house_start;
-                    outputBox.Text = "as you enter the front door opens on its own ";
-                    option1.Text = "go upstairs";
-                    option2.Text = "living room";
-                    option3.Text = "leave";
+                    outputBox.Text = "As you enter the front door opens on its own ";
+                    option1.Text = "Go upstairs";
+                    option2.Text = "Living room";
+                    option3.Text = "Leave";
 
                     break;
                 case 3:
                     {
                         imageBox.Image = ass.Properties.Resources.you_died;
-                        outputBox.Text = "as you are leaving you slip on the pavemnet and die ";
+                        outputBox.Text = "As you are leaving you slip on the pavment and die ";
                         option1.Text = "Click";
                         option2.Text = "...";
                         option3.Text = "...";
@@ -313,7 +313,7 @@ namespace ass
                 case 4:
                     {
                         imageBox.Image = ass.Properties.Resources.haunted_living_room;
-                        outputBox.Text = "as you step in the living room you get paralzyed and die standing up";
+                        outputBox.Text = "As you step in the living room you get paralzyed and die standing up";
                         option1.Text = "Click";
                         option2.Text = "";
                         option3.Text = "";
@@ -322,7 +322,7 @@ namespace ass
                 case 5:
                     {
                         imageBox.Image = ass.Properties.Resources.haunted_staris;
-                        outputBox.Text = "as you go up the stairs you hear a scream coming from the bedroom";
+                        outputBox.Text = "As you go up the stairs you hear a scream coming from the bedroom";
                         option1.Text = "bathroom";
                         option2.Text = "bedroom";
                         option3.Text = "";
@@ -330,7 +330,7 @@ namespace ass
                     break;
                 case 6:
                     imageBox.Image = ass.Properties.Resources.bathrrom;
-                    outputBox.Text = "writien on the wall with blood it say say bloody mary 3 times in the mirro";
+                    outputBox.Text = "Writien on the wall with blood it say bloody mary 3 times in the mirror";
                     option1.Text = "say it 3 times";
                     option2.Text = "leave the bathroom";
                     option3.Text = "";
@@ -339,7 +339,7 @@ namespace ass
                 case 7:
                     {
                         imageBox.Image = ass.Properties.Resources.haunted_bedroom;
-                        outputBox.Text = "as you go in the girl crying jumps on you and rips you apart leading to your death";
+                        outputBox.Text = "As you go in the girl crying jumps on you and rips you apart leading to your death";
                         option1.Text = "Click";
                         option2.Text = "...";
                         option3.Text = "...";
@@ -365,7 +365,7 @@ namespace ass
                 case 10:
                     {
                         imageBox.Image = ass.Properties.Resources.bloody_marry;
-                        outputBox.Text = "you say bloddy mary 3 times and she appres in front of the mirror you talk to her but she gets bored and kills you";
+                        outputBox.Text = "You say bloddy mary 3 times and she appears in front of the mirror you talk to her but she gets bored and kills you";
                         option1.Text = "Click";
                         option2.Text = "...";
                         option3.Text = "...";
@@ -374,7 +374,7 @@ namespace ass
                 case 11:
                     {
                         imageBox.Image = ass.Properties.Resources.bloody_marry;
-                        outputBox.Text = "you say bloody mary 3 times and she appres in fron of the mirror you talk to her and she likes you and helps you escape you win";
+                        outputBox.Text = "You say bloody mary 3 times and she appears in front of the mirror, you talk to her and she likes you and helps you escape. You win";
                         option1.Text = "Click";
                         option2.Text = "...";
                         option3.Text = "...";
@@ -383,16 +383,16 @@ namespace ass
                 case 12:
                     {
                         imageBox.Image = ass.Properties.Resources.haunted_back_door;
-                        outputBox.Text = "do you go to the kitchen or basment";
-                        option1.Text = "kitehcn";
-                        option2.Text = "basment";
-                        option3.Text = "leave";
+                        outputBox.Text = "Do you go to the kitchen or basment";
+                        option1.Text = "Kitehcn";
+                        option2.Text = "Basment";
+                        option3.Text = "Leave";
                     }
                     break;
                 case 13:
                     {
                         imageBox.Image = ass.Properties.Resources.haunted_kitchen;
-                        outputBox.Text = "as you enter the kithen a rat jumpcares you do you grab a kife or not";
+                        outputBox.Text = "As you enter the kithen a rat jumpcares you do you grab a kife or not";
                         option1.Text = "grab it";
                         option2.Text = "dont grab it";
                         option3.Text = "...";
@@ -401,7 +401,7 @@ namespace ass
                 case 14:
                     {
                         imageBox.Image = ass.Properties.Resources.ghost;
-                        outputBox.Text = "a ghost appres and trys to attack you but you kill it with the kife. do you run out the house or stay";
+                        outputBox.Text = "A ghost appears and trys to attack you but you kill it with the kife. Do you run out the house or stay";
                         option1.Text = "run";
                         option2.Text = "stay";
                         option3.Text = "...";
@@ -410,7 +410,7 @@ namespace ass
                 case 15:
                     {
                         imageBox.Image = ass.Properties.Resources.ghost;
-                        outputBox.Text = "a ghost appres and kills you because you didnt have a wepon";
+                        outputBox.Text = "A ghost appears and kills you because you didnt have a wepon";
                         option1.Text = "Click";
                         option2.Text = "...";
                         option3.Text = "...";
@@ -419,7 +419,7 @@ namespace ass
                 case 16:
                     {
                         imageBox.Image = ass.Properties.Resources.you_win;
-                        outputBox.Text = "you run out the house and stay alive";
+                        outputBox.Text = "You run out the house and stay alive";
                         option1.Text = "Click";
                         option2.Text = "...";
                         option3.Text = "...";
@@ -428,7 +428,7 @@ namespace ass
                 case 17:
                     {
                         imageBox.Image = ass.Properties.Resources.you_died;
-                        outputBox.Text = "another ghost appres and takes your kife and stabs you";
+                        outputBox.Text = "Another ghost appears,takes your kife and stabs you";
                         option1.Text = "Click";
                         option2.Text = "...";
                         option3.Text = "...";
@@ -437,7 +437,7 @@ namespace ass
                 case 18:
             
                     imageBox.Image = ass.Properties.Resources.you_died;
-                    outputBox.Text = "you leave but as you are leaving a ghost comes and kills you";
+                    outputBox.Text = "You leave but as you are leaving a ghost comes and kills you";
                         option1.Text = "Click";
                         option2.Text = "...";
                         option3.Text = "...";
@@ -446,16 +446,16 @@ namespace ass
                 case 19:
                     {
                         imageBox.Image = ass.Properties.Resources.basement_staris;
-                        outputBox.Text = "you are going down the staris but slip and fall down";
-                        option1.Text = "explore";
-                        option2.Text = "run back up";
+                        outputBox.Text = "You are going down the staris but slip and fall down";
+                        option1.Text = "Explore";
+                        option2.Text = "Run back up";
                         option3.Text = "...";
                     }
                     break;
                 case 20:
                     {
                         imageBox.Image = ass.Properties.Resources.basment_monster;
-                        outputBox.Text = "you explore but as you turn you see a monster";
+                        outputBox.Text = "You explore but as you turn you see a monster";
                         option1.Text = "say hi";
                         option2.Text = "try to leave";
                         option3.Text = "...";
@@ -464,7 +464,7 @@ namespace ass
                 case 21:
                     {
                         imageBox.Image = ass.Properties.Resources.you_win;
-                        outputBox.Text = "you guys talk and become firends and he helps you escape";
+                        outputBox.Text = "You talk and become friends and he helps you escape";
                         option1.Text = "Click";
                         option2.Text = "...";
                         option3.Text = "...";
@@ -473,7 +473,7 @@ namespace ass
                 case 22:
                     {
                         imageBox.Image = ass.Properties.Resources.you_died;
-                        outputBox.Text = "the monster lunges at you and claws you to death";
+                        outputBox.Text = "The monster lunges at you and claws you to death";
                         option1.Text = "Click";
                         option2.Text = "...";
                         option3.Text = "...";
@@ -482,7 +482,7 @@ namespace ass
                 case 23:
                     {
                         imageBox.Image = ass.Properties.Resources.basement;
-                        outputBox.Text = "you try to run back upstaris but you slip, fall and die";
+                        outputBox.Text = "You try to run back upstaris but you slip,fall and die";
                         option1.Text = "Click";
                         option2.Text = "...";
                         option3.Text = "...";
