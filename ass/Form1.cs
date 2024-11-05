@@ -10,6 +10,9 @@ using System.Windows.Forms;
 using System.Threading;
 using System.Media;
 namespace ass
+    //Jal Patel. Nov, 2024
+    //this code is for the chose your adventure game and my 
+    //My game is about a person entering a haunted house and trying to stay alive from the variuos dangours situation.
 {
     public partial class Form1 : Form
     {
@@ -70,9 +73,6 @@ namespace ass
             {
                 page = 99;
             }
-
-
-
             else if (page == 9)
             {
                 page = 99;
@@ -139,14 +139,9 @@ namespace ass
             }
 
             DisplayPage();
-
-
         }
-
         private void option2Button_Click(object sender, EventArgs e)
         {
-
-
             if (page == 1)
             {
                 page = 12;
@@ -196,9 +191,6 @@ namespace ass
             {
                 page = 15;
             }
-          
-
-
             else if (page == 15)
             {
                 page = 99;
@@ -263,10 +255,6 @@ namespace ass
             {
                 page = 100;
             }
-           
-                         
-               
-
             DisplayPage();
 
 
@@ -280,7 +268,6 @@ namespace ass
             }
             DisplayPage();
         }
-
         public void DisplayPage()
         {
             switch (page)
